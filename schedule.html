@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Schedule</title>
+  <style>
+    body { text-align:center; margin-top:100px; font-family:Arial; }
+    select, input, button { padding:10px; margin:10px; font-size:16px; }
+    button { background:#ff4081; color:white; border:none; border-radius:5px; cursor:pointer; }
+  </style>
+</head>
+<body>
+  <h2>When are you free?</h2>
+  <!-- Calendar date picker -->
+  <input type="date" id="datePicker">
+
+  <h2>Which type of date?</h2>
+  <select id="dateType">
+    <option>Movie</option>
+    <option>Lunch</option>
+    <option>Tea Break</option>
+    <option>Dinner</option>
+    <option>Long Walk</option>
+  </select>
+  <br><br>
+  <button onclick="window.location.href='thankyou.html'">Done</button>
+</body>
+</html>
